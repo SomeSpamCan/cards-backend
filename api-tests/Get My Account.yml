@@ -34,6 +34,6 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
 
-docs: |-
-  A protected route: needs the token saved by Login.
+docs: "A protected route: needs the token saved by Login."
